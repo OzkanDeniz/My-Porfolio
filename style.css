@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=IBM+Plex+Mono&family=Orbitron&family=Victor+Mono&display=swap");
 
-/* font-family: "Victor Mono", monospace;
-font-family: "Orbitron", sans-serif;
+/* font-family: "Victor Mono", monospace; */
+/* font-family: "Orbitron", sans-serif;
 font-family: "IBM Plex Mono", monospace;
 font-family: "Comfortaa", sans-serif; */
 
@@ -32,6 +32,36 @@ body a{
 /*! HEADER */
 
 .header{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+  flex-wrap: wrap;
 
+
+}
+
+.logo{
+/* border: 2px solid orange; */
+font-size: 2rem;
+font-weight: 600;
+}
+
+.navbar{
+/* border: 2px solid yellow; */
+display: flex;
+gap: 2rem;
+flex-wrap: wrap;
+}
+
+.navbar a{
+font-size: 2rem;
+font-weight: 600;
+}
+
+.navbar a:hover,
+.navbar a:active{
+  color: #736d73;
 }
 
