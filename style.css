@@ -38,6 +38,12 @@ body a {
   align-items: center;
   padding: 2rem 5rem;
   flex-wrap: wrap;
+  position:fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: #030303;
 }
 
 .logo {
@@ -155,6 +161,60 @@ color: goldenrod;
   color: #030303;
   font-weight: 700;
 }
+
+/* !ABOUT */
+
+.about{
+  /* border: 2px solid red; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+/* .about-img{border: 2px solid orange; */
+width: 25%;
+
+}
+
+/* .about-content{border: 2px solid yellow; */
+width: 75%;
+}
+
+.about-img{
+  border: 2px solid red;
+}
+
+.about-img img{
+  
+}
+
+.heading{
+  text-align: center;
+  font-size: 3rem;
+  color: red;
+
+}
+
+.about-content h3{
+font-size: 2rem;
+color: #63BFE8;
+}
+
+.about-content p{
+font-size: 1rem;
+margin:3rem 0 ;
+
+}
+
+span{
+color: goldenrod;
+}
+  
+
+
+
 
 
 
