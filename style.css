@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=IBM+Plex+Mono&family=Orbitron&family=Victor+Mono&display=swap");
+
+font-family: "Victor Mono", monospace;
+font-family: "Orbitron", sans-serif;
+font-family: "IBM Plex Mono", monospace;
+font-family: "Comfortaa", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", sans-serif;
+  text-decoration: none;
+}
