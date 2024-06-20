@@ -183,10 +183,11 @@ width: 75%;
 }
 
 .about-img{
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .about-img img{
+  border-radius: 10px;
   
 }
 
@@ -211,7 +212,62 @@ margin:3rem 0 ;
 span{
 color: goldenrod;
 }
+
+/* !SKİLLS */
   
+.skills{
+  padding-top: 7rem;
+  padding-bottom: 6rem;
+}
+
+.skills .heading{
+  margin-top: 4rem;
+}
+
+
+.skills-container{
+
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+.skills-box{
+  /* border: 2px solid rgb(190, 173, 17); */
+  width: 20%;
+  flex: 1 1 30rem;
+  background-color: rgb(49, 48, 48);
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid black;
+}
+
+.skills-box:hover{
+
+}
+
+.skills-box i{
+font-size: 5rem;
+color: #63BFE8;
+}
+
+.skills-box h3{
+  font-size: 2rem;
+
+}
+
+.skills-box p{
+font-size: 0.7rem;
+margin: 1rem;
+text-align: justify;
+}
+
+
+
+
 
 
 
