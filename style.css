@@ -221,7 +221,8 @@ color: goldenrod;
 }
 
 .skills .heading{
-  margin-top: 4rem;
+  margin-bottom: 4rem;
+  
 }
 
 
@@ -243,9 +244,14 @@ color: goldenrod;
   border-radius: 2rem;
   text-align: center;
   border: 0.2rem solid black;
+  transition: all 1s ease-in-out;
+  
 }
 
 .skills-box:hover{
+border-color: #F4A1C4;
+transform: scale(1.02);
+box-shadow: 0 0 3rem #F4A1C4;
 
 }
 
