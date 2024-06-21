@@ -291,10 +291,6 @@ padding: 3rem;
 /* border: 2px solid red; */
 display: flex;
 justify-content: center;
-
-
-
-
 }
 
 .project-box{
@@ -306,12 +302,14 @@ overflow: hidden;
 
 }
 
-.project-box img{}
+.project-box img{
   width: 60%;
   /* border: 2px solid pink; */
 
- 
 }
+  
+ 
+
 
 .pro{
   position: absolute;
