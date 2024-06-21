@@ -278,10 +278,13 @@ text-align: justify;
 padding: 3rem;
 }
 
-.heading{
+.heading1{
   padding-top: 6rem;
   padding-bottom: 6rem;
   margin-bottom: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  color: red;
 }
 
 .project-container{
